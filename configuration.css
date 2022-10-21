@@ -1,0 +1,92 @@
+html, body {
+    background-color: #F8F8F8;
+    margin: 0;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'Enconde Sans SC Regular';
+    src: url("./Font/encode-sans.compressed.ttf");
+}
+
+.background_triangle {
+    width: 50vw;
+    height: 40vh;
+    background-color: F8F8F8;
+}
+
+.background_triangle:after {
+    z-index: 10;
+    content: ' ';
+    border-top: 45vh solid #6FC3DA;
+    border-right: 35vw solid transparent;
+    position: absolute;
+}
+
+.background_rectangle{
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-color: #AFDCEF;
+}
+
+.flex_container_functions{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: -5vh 12vw 5vh 13vw;
+    text-align: center;
+    font-family: Enconde Sans SC Regular;
+    font-size: 150%;
+}
+
+.flex_box_functions{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6FDFF;
+    box-shadow: -1px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-left: 4vw;
+    height: 50vh;
+}
+
+#flex_box_theme{
+    width: 15vw;
+}
+
+#flex_box_theme img{
+    width: 5vw;
+    margin: auto;
+}
+
+.flex_container_buttons_themes button{
+    display: flex;
+    flex-direction: column;
+    margin: 0vh auto 2vh auto;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 10px;
+    border: solid 0px transparent;
+    background-color: #B9D8E5;
+}
+
+#flex_box_button_dark_theme button{
+    cursor: pointer;
+}
+
+#flex_box_button_dark_theme :hover{
+    background-color: #71BBDA;
+}
+
+
+#flex_box_language{
+    width: 25vw;
+}
+
+
+
+
+#flex_box_font{
+    width: 25vw;
+}
+
+
