@@ -1,0 +1,56 @@
+#square {
+    position: inherit;
+    width: 100vw;
+    height: 25vh;
+    z-index: -2;
+    background-color: rgba(78, 184, 226, 0.43);
+}
+
+#talk_tech {
+    width: 100vw;
+    z-index: -3;
+}
+
+#polygon {
+    position: inherit;
+    width: 30vw;
+    min-width: 430px;
+    height: 90vh;
+    min-height: 800px;
+    right: 75%;
+    top: -180%;
+    z-index: -1;
+    background-color: #78CCE8;
+    transform: rotate(55deg);
+}
+
+.after_buying {
+    position: absolute;
+}
+
+
+#written_2_lines {
+    margin-top: 3vh;
+    line-height: 6vh;
+    margin-left: 2vw;
+}
+
+#progress_bar {
+    font-size: 0.9em;
+}
+
+#assistance {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#contents_talk_tech {
+    float: right;
+}
+
+img {
+    vertical-align: top;
+    width: 500px;
+    height: 300px;
+}
