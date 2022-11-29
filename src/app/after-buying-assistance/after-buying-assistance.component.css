@@ -1,43 +1,51 @@
+.after_buying {font-family: Encode Sans;}
+
 #square {
-    position: inherit;
+    position: absolute;
     width: 100vw;
     height: 25vh;
-    z-index: -2;
+    z-index: -3;
     background-color: rgba(78, 184, 226, 0.43);
 }
 
-#talk_tech {
-    width: 100vw;
-    z-index: -3;
-}
-
 #polygon {
-    position: inherit;
+    position: absolute;
     width: 30vw;
     min-width: 430px;
     height: 90vh;
     min-height: 800px;
-    right: 75%;
-    top: -180%;
+    right: 60%;
+    top: -200%;
     z-index: -1;
-    background-color: #78CCE8;
+    background-color: #7BCCE8;
     transform: rotate(55deg);
 }
 
-.after_buying {
-    position: absolute;
+.talk_tech {
+    margin-top: 7vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    width: 70vw;
+    z-index: -2;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    margin-left: 30vw;
+    box-shadow: -1px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+    color: #484D50;
 }
 
+.after_buying {position: absolute;}
 
-#written_2_lines {
+.written_2_lines {
     margin-top: 3vh;
     line-height: 6vh;
     margin-left: 2vw;
 }
 
-#progress_bar {
-    font-size: 0.9em;
-}
+#progress_bar {font-size: 0.9em;}
 
 #assistance {
     color: white;
@@ -45,12 +53,83 @@
     font-weight: 600;
 }
 
-#contents_talk_tech {
-    float: right;
+#talk_img {
+    width: 400px;
+    height: 250px;
 }
 
-img {
-    vertical-align: top;
-    width: 500px;
-    height: 300px;
+#talk {font-size: 1.6em;}
+
+#repair {margin-bottom: 5vh;}
+
+.boxes {
+    position: absolute;
+    cursor: auto;
+}
+
+.benefits {
+    padding: 5vh;
+    line-height: 5vh;
+    margin-top: 7vh;
+    position: relative;
+    width: 60vw;
+    z-index: -2;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #4eb8e23f;
+    margin: 7vh auto;
+}
+
+#benefit_text {
+    color: #484D50;
+    font-size: 1.8em;
+}
+
+.information_paragraph {font-family: Inter;}
+
+.send_irrep {
+    margin-top: 7vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 70vw;
+    z-index: -2;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    text-align: center;
+    box-shadow: -1px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+    color: #484D50;
+}
+
+#world_img {
+    padding: 5vh;
+    width: 250px;
+    height: 200px;
+}
+
+.information_irrep {padding: 10vh;}
+
+#know_more {
+    margin-top: 2vh;
+    padding: 3%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#know_more:hover {background-color: #185164;}
+
+#enter_chat:hover {background-color: #185164;}
+
+#send_irrep_prod {font-size: 1.5em;}
+
+button {
+    border: none;
+    background-color: #7BCCE8;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }
