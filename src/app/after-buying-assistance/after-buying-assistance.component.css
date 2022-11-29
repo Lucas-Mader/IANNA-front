@@ -13,9 +13,9 @@
     width: 30vw;
     min-width: 430px;
     height: 90vh;
-    min-height: 800px;
+    min-height: 1000px;
     right: 60%;
-    top: -200%;
+    top: -230%;
     z-index: -1;
     background-color: #7BCCE8;
     transform: rotate(55deg);
@@ -49,13 +49,13 @@
 
 #assistance {
     color: white;
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 600;
 }
 
 #talk_img {
-    width: 400px;
-    height: 250px;
+    width: 28vw;
+    height: auto;
 }
 
 #talk {font-size: 1.6em;}
@@ -104,8 +104,8 @@
 
 #world_img {
     padding: 5vh;
-    width: 250px;
-    height: 200px;
+    width: 18vw;
+    height: auto;
 }
 
 .information_irrep {padding: 10vh;}
